@@ -34,3 +34,20 @@ def juega(tablero, columna, valor_ficha):
             c[indice] = valor_ficha
             break
         indice -= 1
+
+def esta_llena(tab,columna):
+    
+    # seleccionar columna que queremos comprobar (columna)
+    # comprobar si la columna tiene huecos con un in
+        # o recprrer la columna posicion a posicion con un bucle
+
+    c = tab[columna]
+    '''
+    if 0 not in c:
+        return True
+    
+    else:
+        return False
+    '''
+    return 0 not in c
+    
